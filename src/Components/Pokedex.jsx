@@ -30,7 +30,7 @@ const Pokedex = () => {
 
     const search = (e) => {
         e.preventDefault();
-        navigate(`/pokedex/${pokemonSearch}`)
+        navigate(`/pokedex/${pokemonSearch.toLocaleLowerCase()}`)
     }
 
     const filterTypes = (e) => {
