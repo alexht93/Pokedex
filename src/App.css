@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cormorant+Garamond:wght@500&family=Dancing+Script:wght@500&family=Inter:wght@300&family=Oxygen&family=Roboto&family=Rubik:wght@300;500&family=Ubuntu+Condensed&display=swap');
+.App {
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+button {
+  margin: 1px;
+}
+body{
+  font-family: 'Acme', sans-serif;
+
+  height: 100%;
+  height: 100vh;
+  position: relative;
+ 
+}
+
+.home-img{
+  width: 100%;
+  max-width: 600px;
+}
+.greeting {
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #FE1936;
+}
+
+.message {
+  font-family: 'Acme', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #302F2F;
+}
+
+.home-container {
+ 
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 70vh;
+
+}
+.home-input {
+  font-family: 'Acme', sans-serif;
+  width: 25%;
+  height: 40px;
+  font-size: larger;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+.home-child{
+  width: 100%;
+}
+
+.start-button{
+  font-family: 'Acme', sans-serif;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 24px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: #D93F3F;
+  color: #fff;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.form-message{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
